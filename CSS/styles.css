@@ -53,13 +53,17 @@ footer a:hover, nav a:hover {
 /*Content*/
 .content { 
     padding-top:6px;
-    font-weight: 700;
     padding-bottom:6px;
 }
 
 .content h1 {
+    font-weight: 700;
     word-wrap: break-word;
     font-size:2rem;
+}
+
+.content p {
+
 }
 
 .content-2 {
