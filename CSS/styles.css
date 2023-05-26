@@ -67,8 +67,17 @@ footer a:hover, nav a:hover {
 }
 
 .content-2 {
+    flex-flow: row wrap;
+    display: flex;
+    justify-content:center;
     padding:16px;
+    width:auto;
     background-color:var(--secondary-colour);
+}
+
+.content-2 a {
+    margin:5px;
+    flex: 0 0 0;
 }
 
 .content-2 box {
